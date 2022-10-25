@@ -16,6 +16,8 @@ public class AccountsPage extends Page {
 		driver.findElement(By.xpath(OR.getProperty("CreateAccounButtom"))).click();
 		
 		driver.findElement(By.id(OR.getProperty("AccountName_Field"))).sendKeys("Demo");
+		
+		driver.findElement(By.id(OR.getProperty("PhoneNumber_Field"))).sendKeys("+919785420412");;
 	}
 	
 	public void importAccount()
