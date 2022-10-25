@@ -143,7 +143,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>3.0.0-M7</version>
+				
 				<!-- I don't specify version at all (Spring Boot can autoconfigure plugin 
 					version) -->
 				<executions>
